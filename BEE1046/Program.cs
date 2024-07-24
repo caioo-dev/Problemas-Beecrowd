@@ -20,6 +20,6 @@ class URI
             duracao = (horaFinal - horaInicio);
         }
 
-        Console.WriteLine(duracao);
+        Console.WriteLine($"O JOGO DUROU {duracao} HORA(S)");
     }
 }
